@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1662854C25E4F59D001B687F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662854B25E4F59D001B687F /* AppDelegate.swift */; };
+		1662854E25E4F59D001B687F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662854D25E4F59D001B687F /* SceneDelegate.swift */; };
+		1662855025E4F59D001B687F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662854F25E4F59D001B687F /* ViewController.swift */; };
+		1662855325E4F59D001B687F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1662855125E4F59D001B687F /* Main.storyboard */; };
+		1662855525E4F59E001B687F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1662855425E4F59E001B687F /* Assets.xcassets */; };
+		1662855825E4F59E001B687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1662855625E4F59E001B687F /* LaunchScreen.storyboard */; };
+		1662856325E4F59E001B687F /* TortugaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662856225E4F59E001B687F /* TortugaDemoTests.swift */; };
+		1662856E25E4F59E001B687F /* TortugaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662856D25E4F59E001B687F /* TortugaDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1662855F25E4F59E001B687F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1662854025E4F59D001B687F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1662854725E4F59D001B687F;
+			remoteInfo = TortugaDemo;
+		};
+		1662856A25E4F59E001B687F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1662854025E4F59D001B687F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1662854725E4F59D001B687F;
+			remoteInfo = TortugaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1662854825E4F59D001B687F /* TortugaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TortugaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1662854B25E4F59D001B687F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1662854D25E4F59D001B687F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1662854F25E4F59D001B687F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1662855225E4F59D001B687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1662855425E4F59E001B687F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1662855725E4F59E001B687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1662855925E4F59E001B687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1662855E25E4F59E001B687F /* TortugaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TortugaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1662856225E4F59E001B687F /* TortugaDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortugaDemoTests.swift; sourceTree = "<group>"; };
+		1662856425E4F59E001B687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1662856925E4F59E001B687F /* TortugaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TortugaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1662856D25E4F59E001B687F /* TortugaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortugaDemoUITests.swift; sourceTree = "<group>"; };
+		1662856F25E4F59E001B687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1662854525E4F59D001B687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1662855B25E4F59E001B687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1662856625E4F59E001B687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1662853F25E4F59D001B687F = {
+			isa = PBXGroup;
+			children = (
+				1662854A25E4F59D001B687F /* TortugaDemo */,
+				1662856125E4F59E001B687F /* TortugaDemoTests */,
+				1662856C25E4F59E001B687F /* TortugaDemoUITests */,
+				1662854925E4F59D001B687F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1662854925E4F59D001B687F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1662854825E4F59D001B687F /* TortugaDemo.app */,
+				1662855E25E4F59E001B687F /* TortugaDemoTests.xctest */,
+				1662856925E4F59E001B687F /* TortugaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1662854A25E4F59D001B687F /* TortugaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1662854B25E4F59D001B687F /* AppDelegate.swift */,
+				1662854D25E4F59D001B687F /* SceneDelegate.swift */,
+				1662854F25E4F59D001B687F /* ViewController.swift */,
+				1662855125E4F59D001B687F /* Main.storyboard */,
+				1662855425E4F59E001B687F /* Assets.xcassets */,
+				1662855625E4F59E001B687F /* LaunchScreen.storyboard */,
+				1662855925E4F59E001B687F /* Info.plist */,
+			);
+			path = TortugaDemo;
+			sourceTree = "<group>";
+		};
+		1662856125E4F59E001B687F /* TortugaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1662856225E4F59E001B687F /* TortugaDemoTests.swift */,
+				1662856425E4F59E001B687F /* Info.plist */,
+			);
+			path = TortugaDemoTests;
+			sourceTree = "<group>";
+		};
+		1662856C25E4F59E001B687F /* TortugaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1662856D25E4F59E001B687F /* TortugaDemoUITests.swift */,
+				1662856F25E4F59E001B687F /* Info.plist */,
+			);
+			path = TortugaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1662854725E4F59D001B687F /* TortugaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1662857225E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemo" */;
+			buildPhases = (
+				1662854425E4F59D001B687F /* Sources */,
+				1662854525E4F59D001B687F /* Frameworks */,
+				1662854625E4F59D001B687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TortugaDemo;
+			productName = TortugaDemo;
+			productReference = 1662854825E4F59D001B687F /* TortugaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1662855D25E4F59E001B687F /* TortugaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1662857525E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemoTests" */;
+			buildPhases = (
+				1662855A25E4F59E001B687F /* Sources */,
+				1662855B25E4F59E001B687F /* Frameworks */,
+				1662855C25E4F59E001B687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1662856025E4F59E001B687F /* PBXTargetDependency */,
+			);
+			name = TortugaDemoTests;
+			productName = TortugaDemoTests;
+			productReference = 1662855E25E4F59E001B687F /* TortugaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1662856825E4F59E001B687F /* TortugaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1662857825E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemoUITests" */;
+			buildPhases = (
+				1662856525E4F59E001B687F /* Sources */,
+				1662856625E4F59E001B687F /* Frameworks */,
+				1662856725E4F59E001B687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1662856B25E4F59E001B687F /* PBXTargetDependency */,
+			);
+			name = TortugaDemoUITests;
+			productName = TortugaDemoUITests;
+			productReference = 1662856925E4F59E001B687F /* TortugaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1662854025E4F59D001B687F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1662854725E4F59D001B687F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1662855D25E4F59E001B687F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1662854725E4F59D001B687F;
+					};
+					1662856825E4F59E001B687F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1662854725E4F59D001B687F;
+					};
+				};
+			};
+			buildConfigurationList = 1662854325E4F59D001B687F /* Build configuration list for PBXProject "TortugaDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1662853F25E4F59D001B687F;
+			productRefGroup = 1662854925E4F59D001B687F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1662854725E4F59D001B687F /* TortugaDemo */,
+				1662855D25E4F59E001B687F /* TortugaDemoTests */,
+				1662856825E4F59E001B687F /* TortugaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1662854625E4F59D001B687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1662855825E4F59E001B687F /* LaunchScreen.storyboard in Resources */,
+				1662855525E4F59E001B687F /* Assets.xcassets in Resources */,
+				1662855325E4F59D001B687F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1662855C25E4F59E001B687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1662856725E4F59E001B687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1662854425E4F59D001B687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1662855025E4F59D001B687F /* ViewController.swift in Sources */,
+				1662854C25E4F59D001B687F /* AppDelegate.swift in Sources */,
+				1662854E25E4F59D001B687F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1662855A25E4F59E001B687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1662856325E4F59E001B687F /* TortugaDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1662856525E4F59E001B687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1662856E25E4F59E001B687F /* TortugaDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1662856025E4F59E001B687F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1662854725E4F59D001B687F /* TortugaDemo */;
+			targetProxy = 1662855F25E4F59E001B687F /* PBXContainerItemProxy */;
+		};
+		1662856B25E4F59E001B687F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1662854725E4F59D001B687F /* TortugaDemo */;
+			targetProxy = 1662856A25E4F59E001B687F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1662855125E4F59D001B687F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1662855225E4F59D001B687F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1662855625E4F59E001B687F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1662855725E4F59E001B687F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1662857025E4F59E001B687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1662857125E4F59E001B687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1662857325E4F59E001B687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TortugaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.TortugaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1662857425E4F59E001B687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TortugaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.TortugaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1662857625E4F59E001B687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TortugaDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.TortugaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TortugaDemo.app/TortugaDemo";
+			};
+			name = Debug;
+		};
+		1662857725E4F59E001B687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TortugaDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.TortugaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TortugaDemo.app/TortugaDemo";
+			};
+			name = Release;
+		};
+		1662857925E4F59E001B687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TortugaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.TortugaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TortugaDemo;
+			};
+			name = Debug;
+		};
+		1662857A25E4F59E001B687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TortugaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.TortugaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TortugaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1662854325E4F59D001B687F /* Build configuration list for PBXProject "TortugaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1662857025E4F59E001B687F /* Debug */,
+				1662857125E4F59E001B687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1662857225E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1662857325E4F59E001B687F /* Debug */,
+				1662857425E4F59E001B687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1662857525E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1662857625E4F59E001B687F /* Debug */,
+				1662857725E4F59E001B687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1662857825E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1662857925E4F59E001B687F /* Debug */,
+				1662857A25E4F59E001B687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1662854025E4F59D001B687F /* Project object */;
+}
