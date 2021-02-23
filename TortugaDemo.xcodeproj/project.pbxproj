@@ -15,6 +15,9 @@
 		1662855825E4F59E001B687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1662855625E4F59E001B687F /* LaunchScreen.storyboard */; };
 		1662856325E4F59E001B687F /* TortugaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662856225E4F59E001B687F /* TortugaDemoTests.swift */; };
 		1662856E25E4F59E001B687F /* TortugaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662856D25E4F59E001B687F /* TortugaDemoUITests.swift */; };
+		1D3776BD7EDB55D90AABBBBC /* Pods_TortugaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152EB53BE211B15142CB5B20 /* Pods_TortugaDemo.framework */; };
+		DEFFC0050B76CE1465EC71AE /* Pods_TortugaDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A875CEFC16D858073163E66 /* Pods_TortugaDemoTests.framework */; };
+		E6938FCF5DD8A96F5C167A2A /* Pods_TortugaDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F24CDC1E7F3938AC4CEED9D /* Pods_TortugaDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152EB53BE211B15142CB5B20 /* Pods_TortugaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TortugaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1662854825E4F59D001B687F /* TortugaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TortugaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1662854B25E4F59D001B687F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1662854D25E4F59D001B687F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		1662856925E4F59E001B687F /* TortugaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TortugaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1662856D25E4F59E001B687F /* TortugaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TortugaDemoUITests.swift; sourceTree = "<group>"; };
 		1662856F25E4F59E001B687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F24CDC1E7F3938AC4CEED9D /* Pods_TortugaDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TortugaDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDCD0217DB4807C48E34E2F /* Pods-TortugaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TortugaDemo.debug.xcconfig"; path = "Target Support Files/Pods-TortugaDemo/Pods-TortugaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		803A7A51548DC7BF3441FD82 /* Pods-TortugaDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TortugaDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TortugaDemoUITests/Pods-TortugaDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A875CEFC16D858073163E66 /* Pods_TortugaDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TortugaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF004D50F36E812D2277491D /* Pods-TortugaDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TortugaDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TortugaDemoTests/Pods-TortugaDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6A7E067959E52807473C98F /* Pods-TortugaDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TortugaDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TortugaDemoTests/Pods-TortugaDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E09A31BD4616FD9A6E5ABE /* Pods-TortugaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TortugaDemo.release.xcconfig"; path = "Target Support Files/Pods-TortugaDemo/Pods-TortugaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E28EF5FEC84680CC6813133C /* Pods-TortugaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TortugaDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TortugaDemoUITests/Pods-TortugaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3776BD7EDB55D90AABBBBC /* Pods_TortugaDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFFC0050B76CE1465EC71AE /* Pods_TortugaDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6938FCF5DD8A96F5C167A2A /* Pods_TortugaDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12DA7C87F4DF29C897269101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152EB53BE211B15142CB5B20 /* Pods_TortugaDemo.framework */,
+				8A875CEFC16D858073163E66 /* Pods_TortugaDemoTests.framework */,
+				5F24CDC1E7F3938AC4CEED9D /* Pods_TortugaDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1662853F25E4F59D001B687F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				1662856125E4F59E001B687F /* TortugaDemoTests */,
 				1662856C25E4F59E001B687F /* TortugaDemoUITests */,
 				1662854925E4F59D001B687F /* Products */,
+				8F57E29BECCBF20F42DD8AC8 /* Pods */,
+				12DA7C87F4DF29C897269101 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = TortugaDemoUITests;
 			sourceTree = "<group>";
 		};
+		8F57E29BECCBF20F42DD8AC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FDCD0217DB4807C48E34E2F /* Pods-TortugaDemo.debug.xcconfig */,
+				C1E09A31BD4616FD9A6E5ABE /* Pods-TortugaDemo.release.xcconfig */,
+				B6A7E067959E52807473C98F /* Pods-TortugaDemoTests.debug.xcconfig */,
+				AF004D50F36E812D2277491D /* Pods-TortugaDemoTests.release.xcconfig */,
+				E28EF5FEC84680CC6813133C /* Pods-TortugaDemoUITests.debug.xcconfig */,
+				803A7A51548DC7BF3441FD82 /* Pods-TortugaDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1662857225E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemo" */;
 			buildPhases = (
+				72AC1EF3FB6F2504775C78F9 /* [CP] Check Pods Manifest.lock */,
 				1662854425E4F59D001B687F /* Sources */,
 				1662854525E4F59D001B687F /* Frameworks */,
 				1662854625E4F59D001B687F /* Resources */,
+				7F85E93FD2263D6DE24DC333 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1662857525E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemoTests" */;
 			buildPhases = (
+				74CFF912C5313B7F57CC723F /* [CP] Check Pods Manifest.lock */,
 				1662855A25E4F59E001B687F /* Sources */,
 				1662855B25E4F59E001B687F /* Frameworks */,
 				1662855C25E4F59E001B687F /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1662857825E4F59E001B687F /* Build configuration list for PBXNativeTarget "TortugaDemoUITests" */;
 			buildPhases = (
+				E94EB47A8518C82D2484D1B5 /* [CP] Check Pods Manifest.lock */,
 				1662856525E4F59E001B687F /* Sources */,
 				1662856625E4F59E001B687F /* Frameworks */,
 				1662856725E4F59E001B687F /* Resources */,
@@ -252,6 +297,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72AC1EF3FB6F2504775C78F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TortugaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CFF912C5313B7F57CC723F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TortugaDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F85E93FD2263D6DE24DC333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TortugaDemo/Pods-TortugaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TortugaDemo/Pods-TortugaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TortugaDemo/Pods-TortugaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94EB47A8518C82D2484D1B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TortugaDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1662854425E4F59D001B687F /* Sources */ = {
@@ -433,6 +564,7 @@
 		};
 		1662857325E4F59E001B687F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDCD0217DB4807C48E34E2F /* Pods-TortugaDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +583,7 @@
 		};
 		1662857425E4F59E001B687F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E09A31BD4616FD9A6E5ABE /* Pods-TortugaDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +602,7 @@
 		};
 		1662857625E4F59E001B687F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A7E067959E52807473C98F /* Pods-TortugaDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +624,7 @@
 		};
 		1662857725E4F59E001B687F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF004D50F36E812D2277491D /* Pods-TortugaDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +646,7 @@
 		};
 		1662857925E4F59E001B687F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28EF5FEC84680CC6813133C /* Pods-TortugaDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +666,7 @@
 		};
 		1662857A25E4F59E001B687F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803A7A51548DC7BF3441FD82 /* Pods-TortugaDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
